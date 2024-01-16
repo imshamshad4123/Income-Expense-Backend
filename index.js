@@ -14,7 +14,7 @@ const globalErrHandler = require("./middlewares/globalErrHandlers");
 app.use(cors())
 
 const corsOptions = {
-  origin: ['https://thunderclient.io', 'https://notesappbackend3-fn9c.onrender.com',"http://localhost:3000"],
+  origin: ['https://thunderclient.io', 'https://income-expense-frontend-a7r1.onrender.com/',"http://localhost:3000"],
 };
 app.use(cors(corsOptions));
 
